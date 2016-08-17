@@ -51,27 +51,27 @@ input:focus{
 	    	<select ng-model="data.omics">
 		        <option value="">---Please select---</option>
 		        <option value="Proteomics">Proteomics</option>
-		        <option value="Geomics">Geomics</option>
+		        <option value="Genomics">Genomics</option>
 		        <option value="Metabolomics">Metabolomics</option>
 	        </select> 
 
 		<div ng-if="showMeForm()" class="animate-if">
             <h2 ng-if="showMeProteomics()" class="animate-if">Proteomics</h2>
-            <h2 ng-if="showMeGeomics()" class="animate-if">Geomics</h2>
+            <h2 ng-if="showMeGenomics()" class="animate-if">Genomics</h2>
             <h2 ng-if="showMeMetabolomics()" class="animate-if">Metabolomics</h2>
 
-	  	    <label for="data.name" ng-if="showMeProteomics()" class="animate-if">Proteomics Name:</label>
-	        <label for="data.name" ng-if="showMeGeomics()" class="animate-if" >Geomics Name:</label>
+	  	    <label for="data.name" ng-if="showMeProteomics()" class="animate-if">Protein Name:</label>
+	        <label for="data.name" ng-if="showMeGenomics()" class="animate-if" >Gene Name:</label>
 	        <label for="data.name" ng-if="showMeMetabolomics()" class="animate-if" >Metabolite Name:</label>
 	        <input type="text" ng-model="data.name">
             <br><br>
-	        <label for="data.id" ng-if="showMeProteomics()" class="animate-if">Proteomics ID:</label>  
-	        <label for="data.id" ng-if="showMeGeomics()" class="animate-if">Geomics ID:</label> 
+	        <label for="data.id" ng-if="showMeProteomics()" class="animate-if">Protein ID:</label>  
+	        <label for="data.id" ng-if="showMeGenomics()" class="animate-if">Gene ID:</label> 
 	        <label for="data.name" ng-if="showMeMetabolomics()" class="animate-if" >Metabolite ID:</label>   
          	<input type="text" ng-model="data.id">
            <br><br>
-	        <label for="data.symbol" ng-if="showMeProteomics()" class="animate-if">Proteomics Symbol:</label> 
-	        <label for="data.id" ng-if="showMeGeomics()" class="animate-if">Geomics Symbol:</label> 
+	        <label for="data.symbol" ng-if="showMeProteomics()" class="animate-if">Protein Symbol:</label> 
+	        <label for="data.id" ng-if="showMeGenomics()" class="animate-if">Gene Symbol:</label> 
 	        <label for="data.name" ng-if="showMeMetabolomics()" class="animate-if" >Metabolite Symbol:</label>   
         	<input type="text" ng-model="data.symbol"> 
            <br><br>
@@ -85,8 +85,8 @@ input:focus{
 	           	<option value="Other">Other</option>
     		</select>
     		<br>
-           <label for="data.otherProteinSpecies" ng-if="showMeOtherSpecies()" class="animate-if">Other Species:</label>
-           <input type="text" ng-model="data.otherProteinSpecies" ng-if="showMeOtherSpecies()" class="animate-if">
+           <label for="data.otherOmicSpecies" ng-if="showMeOtherSpecies()" class="animate-if">Other Species:</label>
+           <input type="text" ng-model="data.otherOmicSpecies" ng-if="showMeOtherSpecies()" class="animate-if">
            <br>
           <label for="data.sample">Sample:</label>
           <select ng-model="data.sample">
@@ -151,10 +151,10 @@ input:focus{
           <label for="experimentName">Experiment Name:</label> 
           <select ng-model="data.experimentName">
             	  <option value="">---Please select---</option>
-           	      <option value="Immenosity">Immenosity</option>
-           	      <option value="Muno fluorence">Muno fluorence</option>
+           	      <option value="Immunohistochemistry">Immunohistochemistry</option>
+           	      <option value="Immunofluorescence">Immunofluorescence</option>
            	      <option value="Sequencing">Sequencing</option>
-           	      <option value="Mass spectometry">Mass spectometry</option>
+           	      <option value="Mass spectrometry">Mass spectrometry</option>
            	      <option value="Other">Other</option>
           </select>  
           <br>
@@ -209,8 +209,8 @@ app.controller('ctrl_omics', function($scope) {
     if($scope.data.omics == 'Proteomics')
          return true;
     }
-     $scope.showMeGeomics = function() {
-    if($scope.data.omics == 'Geomics')
+     $scope.showMeGenomics = function() {
+    if($scope.data.omics == 'Genomics')
          return true;
     }
 
@@ -220,7 +220,7 @@ app.controller('ctrl_omics', function($scope) {
     }
 
       $scope.showMeForm = function() {
-    if($scope.data.omics == 'Proteomics' || $scope.data.omics == 'Geomics' ||$scope.data.omics == 'Metabolomics')
+    if($scope.data.omics == 'Proteomics' || $scope.data.omics == 'Genomics' ||$scope.data.omics == 'Metabolomics')
          return true;
     }
 
