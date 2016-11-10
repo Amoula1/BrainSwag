@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<head>
+	<title>Proteomics</title>
+	<meta charset="utf-8"/>
+	
+	<link rel="stylesheet" type="text/css" href="angular-csp.css ">
+
+      <style type="text/css">
+  .css-form input.ng-invalid.ng-touched {
+    background-color: #7ED9FE;
+  }
+
+  .css-form input.ng-valid.ng-touched {
+    background-color: #7ED9FE;
+  }
+ form{
+     margin: 0 auto;
+     width: 500px;
+     padding: 1em;
+     border: 1px solid #CCC;
+     border-radius: 1em;
+} 
+
+label{
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+
+}
+input{
+  font: 1em sans-serif;
+  width: 200px;
+  box-sizing:border-box;
+  border:1px solid #999;
+}
+input:focus{
+  border-color: #000;
+}
+
+</style>
+
+</head>
+<body >
+
+    <form novalidate class="css-form">   	
+    	<div ng-app="app_omics" ng-controller="ctrl_omics" ng-init=""> 
+    		<h2>Omics data</h2>
+    		<label for="data.omics">Omics type:</label></tr> 
+	    	<select ng-model="data.omics">
+		        <option value="">---Please select---</option>
+		        <option value="Proteomics">Proteomics</option>
+		        <option value="Genomics">Genomics</option>
+		        <option value="Metabolomics">Metabolomics</option>
+	        </select> 
+
+		<div ng-if="showMeForm()" class="animate-if">
+            <h2 ng-if="showMeProteomics()" class="animate-if">Proteomics</h2>
+            <h2 ng-if="showMeGenomics()" class="animate-if">Genomics</h2>
+            <h2 ng-if="showMeMetabolomics()" class="animate-if">Metabolomics</h2>
+
+	  	    <label for="data.name" ng-if="showMeProteomics()" class="animate-if">Protein Name:</label>
+	        <label for="data.name" ng-if="showMeGenomics()" class="animate-if" >Gene Name:</label>
+	        <label for="data.name" ng-if="showMeMetabolomics()" class="animate-if" >Metabolite Name:</label>
+	        <input type="text" ng-model="data.name">
+            <br><br>
+	        <label for="data.id" ng-if="showMeProteomics()" class="animate-if">Protein ID:</label>  
+	        <label for="data.id" ng-if="showMeGenomics()" class="animate-if">Gene ID:</label> 
+	        <label for="data.name" ng-if="showMeMetabolomics()" class="animate-if" >Metabolite ID:</label>   
+         	<input type="text" ng-model="data.id">
+           <br><br>
+	        <label for="data.symbol" ng-if="showMeProteomics()" class="animate-if">Protein Symbol:</label> 
+	        <label for="data.id" ng-if="showMeGenomics()" class="animate-if">Gene Symbol:</label> 
+	        <label for="data.name" ng-if="showMeMetabolomics()" class="animate-if" >Metabolite Symbol:</label>   
+        	<input type="text" ng-model="data.symbol"> 
+           <br><br>
+         	<label for="data.species"> Species: </label>
+    		<select name="data.species" ng-model="data.species"> 
+	    	  	<option value="">---Please select---</option>
+	      		<option value="Human">Human</option>
+	      		<option value="Rodent">Rodent</option>
+	      		<option value="Non-Human">Non-Human</option>
+	           	<option value="Non-Human primate">Non-Human primate</option>
+	           	<option value="Other">Other</option>
+    		</select>
+    		<br>
+           <label for="data.otherOmicSpecies" ng-if="showMeOtherSpecies()" class="animate-if">Other Species:</label>
+           <input type="text" ng-model="data.otherOmicSpecies" ng-if="showMeOtherSpecies()" class="animate-if">
+           <br>
+          <label for="data.sample">Sample:</label>
+          <select ng-model="data.sample">
+               	 <option value="">---Please select---</option>
+           	     <option value="Blood">Blood</option>
+           	     <option value="Tissue">Tissue</option>
+           	     <option value="CSF">CSF</option>
+           	     <option value="Urine">Urine</option>
+           	     <option value="saliva">Saliva</option>
+           	     <option value="Other">Other</option>
+          </select>
+          <br>
+          <label for="data.otherSample" ng-if="showMeOtherSample()" class="animate-if">Other Sample:</label>
+          <input type="text" ng-model="data.otherSample" ng-if="showMeOtherSample()" class="animate-if">  
+           	<br>
+          <label for="data.tissueType" ng-if="showMeTissueType()" class="animate-if">Tissue Type:</label> 
+          <select ng-model="data.tissueType" ng-if="showMeTissueType()" class="animate-if">  
+          <option value="">---Please select---</option>
+           	     <option value="Muscle">Muscle</option>
+           	     <option value="Skin(epithelial)">Skin(epithelial)</option> 
+           	     <option value="Vascular">Vascular</option>
+           	     <option value="Brain">Brain</option>
+           	     <option value="Other">Other</option>                 
+          </select>   
+          <br>
+          <label for="data.otherTissueType" ng-if="showMeOtherTissueType()" class="animate-if">Other tissue type:</label>
+          <input type="text" ng-model="data.otherTissueType" ng-if="showMeOtherTissueType()" class="animate-if">
+          <br>  
+          <label for="data.BrainTissueType" ng-if="showMeBrain()" class="animate-if">Brain Tissue Type:</label> 
+          <select ng-model="data.BrainTissueType" ng-if="showMeBrain()" class="animate-if">
+            	<option value="">---Please select---</option>
+           	    <option value="Cerebral Vascular">Cerebral vascular</option>
+           	    <option value="Neuronal tissue">Neuronal tissue</option>
+           	    <option value="Whole brain">Whole brain</option>
+           	    <option value="Other">Other</option>
+          </select>
+          <br>
+          <label for="data.otherBrainTissueType" ng-if="showMeOtherBrainTissueType()" class="animate-if"> Other brain tissue type</label>
+          <input type="text" name="data.otherBrainTissueType" ng-if="showMeOtherBrainTissueType()" class="animate-if">  
+          <br> 
+          <label for="data.brainStructure" ng-if="showMeBrain()" class="animate-if">Brain Structure: </label>
+          <input type="text" ng-model="data.brainStructure" ng-if="showMeBrain()" class="animate-if"> 
+          <br>
+          <label for="data.humanState">Human State:</label> 
+          <select ng-model="data.humanState">
+            	  <option value="">---Please select---</option>
+           	      <option value="Post-mortem">Post-mortem</option>
+           	      <option value="In-vivo">In-vivo</option>
+           	      <option value="Ex-vivo">Ex-vivo</option>
+           	      <option value="Other">Other</option>
+          </select>
+          <br>
+          <label for="data.otherhumanState" ng-if="showMeOtherHumanState()" class="animate-if">Other Human state: </label>
+          <input type="text" ng-model="data.otherhumanState" ng-if="showMeOtherHumanState()" class="animate-if">
+          <br>    
+          <label for="data.experimentType" >Experiment type: </label> 
+          <input type="text" ng-model="data.experimentType">   
+          <br><br>
+          <label for="data.experimentTitle" >Experiment title: </label> 
+          <input type="text" ng-model="data.experimentTitle">  
+          <br><br>
+          <label for="experimentName">Experiment Name:</label> 
+          <select ng-model="data.experimentName">
+            	  <option value="">---Please select---</option>
+           	      <option value="Immunohistochemistry">Immunohistochemistry</option>
+           	      <option value="Immunofluorescence">Immunofluorescence</option>
+           	      <option value="Sequencing">Sequencing</option>
+           	      <option value="Mass spectrometry">Mass spectrometry</option>
+           	      <option value="Other">Other</option>
+          </select>  
+          <br>
+          <label for="data.otherExperimentName" ng-if="showMeOtherExperimentName()" class="animate-if">Other experiment name: </label>
+          <input type="text" ng-model="data.otherExperimentName" ng-if="showMeOtherExperimentName()" class="animate-if">  
+          <br>
+          <label for="data.experimentMeasurement">Exp. Measurement:</label>  
+          <select ng-model="data.experimentMeasurement">
+           		  <option value="">---Please select---</option>
+           	      <option value="Unchanged">Unchanged</option>
+           	      <option value="Increase">Increase</option>
+           	      <option value="Decrease">Decrease</option>
+           	      <option value="Concentration">Concentration</option>
+           	      <option value="Other">Other</option>
+           </select> 
+           <br>
+           <label for="data.otherExperimentMeasurement" ng-if="showMeOtherExperimentMeasurement()" class="animate-if">Other experiment name: </label>
+           <input type="text" ng-model="data.otherExperimentMeasurement" ng-if="showMeOtherExperimentMeasurement()" class="animate-if">
+           <br>
+           <label for="data.concentrationMin" ng-if="showMeConcentration()" class="animate-if">Concentration Min: </label>
+           <input type="number" ng-model="data.concentrationMin" ng-if="showMeConcentration()" class="animate-if">
+           <br>
+           <label for="data.concentrationMax" ng-if="showMeConcentration()" class="animate-if">Concentration Max: </label>
+           <input type="number" ng-model="data.concentrationMax" ng-if="showMeConcentration()" class="animate-if">
+           <br>
+           <label for="data.age" >Age: </label>
+           <input type="number" ng-model="data.age">
+           <br>
+           <label for="data.gender">Gender:</label><br>
+           <input type="radio" ng-model="data.gender" value="male" />male <br>
+           <input type="radio" ng-model="data.gender" value="female" />female<br />
+           <br>
+           <br>
+          
+        <input type="reset" ng-click="reset()" value="reset">
+        <input type="submit" ng-click="update(user)" value="Save" />
+          
+         <!--Json
+          <pre>user = {{data | json}}</pre>
+          <pre>master = {{master | json}}</pre>
+          -->
+  		</div>             
+    </div>
+
+  
+
+<script>
+var app = angular.module('app_omics', []);
+
+app.controller('ctrl_omics', function($scope) {
+   $scope.showMeProteomics = function() {
+    if($scope.data.omics == 'Proteomics')
+         return true;
+    }
+     $scope.showMeGenomics = function() {
+    if($scope.data.omics == 'Genomics')
+         return true;
+    }
+
+      $scope.showMeMetabolomics = function() {
+    if($scope.data.omics == 'Metabolomics')
+         return true;
+    }
+
+      $scope.showMeForm = function() {
+    if($scope.data.omics == 'Proteomics' || $scope.data.omics == 'Genomics' ||$scope.data.omics == 'Metabolomics')
+         return true;
+    }
+
+	$scope.showMeOtherSpecies = function() {
+		if($scope.data.species == 'Other')
+         return true;
+    }
+    $scope.showMeOtherSample = function() {
+		if($scope.data.sample == 'Other')
+         return true;
+    }
+
+    $scope.showMeTissueType = function() {
+		if($scope.data.sample == 'Tissue')
+         return true;
+    }
+
+    $scope.showMeOtherTissueType = function() {
+		if($scope.data.tissueType == 'Other')
+         return true;
+    }
+
+    $scope.showMeBrain = function() {
+		if ($scope.data.sample == 'Tissue')
+			if ($scope.data.tissueType == 'Brain') 
+         		return true;
+    }
+
+    $scope.showMeOtherBrainTissueType = function() {
+		if($scope.data.BrainTissueType == 'Other')
+         return true;
+    }
+
+    $scope.showMeOtherHumanState = function() {
+		if($scope.data.humanState == 'Other')
+         return true;
+    }
+    $scope.showMeOtherExperimentName= function() {
+		if($scope.data.experimentName == 'Other')
+         return true;
+    }
+    $scope.showMeOtherExperimentMeasurement= function() {
+		if($scope.data.experimentMeasurement == 'Other')
+         return true;
+    }
+    $scope.showMeConcentration= function() {
+		if($scope.data.experimentMeasurement == 'Concentration')
+         return true;
+    }
+
+    
+});
+</script>
+      </form>  
+
+
+  </body>
+</html>
