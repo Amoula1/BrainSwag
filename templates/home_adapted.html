@@ -1,0 +1,141 @@
+<div class="subsection home">
+		<h3 style="padding-bottom:3rem;line-height:150%"><b>Welcome to BrainSwag!</b> Description of the aim of the brainswag project here !.</h3>
+</div>
+
+<div class="subsection home">
+	<form method="get" action="getJSON.php">
+		<fieldset id="home-search">
+			<input type="text" id="search" name="query" placeholder="Search articles by title, author, keywords"/>
+			<button style="border:0;top:5px;width:25px;height:25px"><img src="/img/search.svg" alt="Search" class="rollMe" width=25px height=25px/></button>
+		</fieldset>
+		<a href="http://brainspell.org/">Brainspell</a>		
+	</form>
+	<div style="text-align:right"><!--NumberOfArticlesIndexed--> articles indexed</div>
+</div>
+
+<div class="subsection home">
+	<ul class="paper-list">
+	</ul>
+</div>
+<?php
+class Article
+{
+	private $pmid;
+	private $doi;
+	private $title;
+	private $location;
+
+	 function __construct(){
+      $this->location=array();
+	}
+
+public function setLocations($tabLocations){
+    foreach ($tabLocations as $key => $value) {
+        $this->location[]=$value; 
+    }
+}
+	public function setPmid($_pmid){
+		$this->pmid=$_pmid;
+	}
+	public function setDoi($_doi){
+		$this->doi=$_doi;
+	}
+	public function setTitle($_title){
+		$this->title=$_title;
+	}
+
+	//getters
+	public function getTitle(){
+		return $this->title;
+	}
+
+}
+	 
+//get pmid from DOM
+    require_once "simple_html_dom.php";
+    $html=new simple_html_dom();
+    $html->load_file('http://brainspell.org/search?query=psen+1');
+    $pmid=array();
+
+    foreach ($html->find('.paper-stuff') as $article) {
+    $pmid[]= str_replace("/article/","",$article->find('a',0)->getAttribute('href'));
+    	}
+//Create ALLArticles TAb
+$articlesTab=array(); 
+  	
+//upload data file
+     $json=file_get_contents("C:\wamp\www\projet1\json\ALLArticles.json");
+     $data=json_decode($json,true);
+     
+
+    foreach ($pmid as $tabPmid) {
+    foreach ($data as $key=>$value) {
+     	if($value["pmid"]==$tabPmid)
+     		{
+     		/**	var dsExample4 = new Spry.Data.JSONDataSet("../../data/json/object-02.js", { path: "experiment.lacation" });
+                <div class="liveSample" spry:region="dsExample4">
+                <p>Batters:</p>
+                <ul>
+	               <li spry:repeat="dsExample4">{type} ({id})</li>
+                </ul>
+                </div>*/
+
+     			$details=new Article();
+     		    
+     			$details->setPmid($value["pmid"]);
+     		    $details->setDoi($value["doi"]);
+     		    $details->setTitle($value["title"]);
+                //xyz
+                $loc=array();
+                foreach ($value['experiment']as $key => $value1) {
+                 $loc[]=$value1;
+               //  print_r ($loc);
+            
+                }
+                $details->setLocations($loc);
+     		    $articlesTab[]=$details;
+     		       
+     		}    		
+     }
+  
+ }
+ //Display articles titles
+
+foreach ($articlesTab as $key => $value) {
+	echo $value->getTitle(); echo '<br>';
+}
+?>
+
+<script type="text/javascript">
+init();
+function init(){
+	console.log("[init] init()");
+	// Is JS enabled? Is it a touch device?
+	var htmlTag = document.getElementsByTagName('html')[0];
+	htmlTag.className = (htmlTag.className + ' ' || '') + 'hasJS';
+	if ('ontouchstart' in document.documentElement)
+		htmlTag.className = (htmlTag.className + ' ' || '') + 'isTouch';
+	
+	getarticle();
+}
+function getarticle()
+{
+	console.log("[getarticle] Get random article");
+	$.get("/php/brainspell_adapted.php",
+		  {	action:"get_article",
+			command:"random",
+			argument:"5"},
+		  function( msg ) {
+			var xml=$.parseXML(msg);
+			$(xml).find("record").each(function(){
+				var newArticle="";
+				newArticle+="<li><div class=\"paper-stuff\">\n";
+				newArticle+="<h3><a href=\"article/"+$(this).find("PMID").text()+"\">";
+				newArticle+=$(this).find("Title").text()+"</a></h3>\n";
+				newArticle+="<p class=\"info\">"+$(this).find("Reference").text()+"</p>\n";
+				newArticle+="</div></li>\n";
+				$(".paper-list").append(newArticle);
+			});
+		  });
+}
+</script>

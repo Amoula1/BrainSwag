@@ -1,0 +1,31 @@
+body{
+    background-image: url("../img/ground.jpg");	
+}
+
+.row{
+    margin: 10px;
+}
+#layer_list_panel{
+    width: 200px;
+}
+#layer_settings_panel{
+    width: 200px;
+}
+
+.data_display_row{
+    width: 100px;
+}
+#views_left2{
+    margin-right: 20px;
+}
+
+.col{
+    margin-right: 700px;
+}
+ul li {
+    background: #E8EBEA;
+    padding: 3px;
+    margin: 5px;
+    width: 50%;
+    border-radius: 10px;
+}

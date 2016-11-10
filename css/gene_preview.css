@@ -1,0 +1,11 @@
+body{
+    background-image: url("../img/ground.jpg");	
+}
+
+ul li {
+    background: #E8EBEA;
+    padding: 3px;
+    margin: 5px;
+    width: 60%;
+    border-radius: 10px;
+}

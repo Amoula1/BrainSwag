@@ -1,0 +1,407 @@
+127.0.0.1 - - [19/Oct/2016:11:38:00 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 148748
+127.0.0.1 - - [19/Oct/2016:11:38:32 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2268
+127.0.0.1 - - [19/Oct/2016:11:42:45 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2268
+127.0.0.1 - - [19/Oct/2016:11:54:06 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2268
+127.0.0.1 - - [19/Oct/2016:11:54:10 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2268
+127.0.0.1 - - [19/Oct/2016:11:54:19 -0400] "GET / HTTP/1.1" 200 991
+[Wed Oct 19 11:54:19.261845 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/
+127.0.0.1 - - [19/Oct/2016:11:54:19 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 11:54:19.273846 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/
+127.0.0.1 - - [19/Oct/2016:11:54:19 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 11:54:19.278846 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/
+127.0.0.1 - - [19/Oct/2016:11:54:19 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+127.0.0.1 - - [19/Oct/2016:11:54:20 -0400] "GET /BrainSwag/ HTTP/1.1" 200 2852
+[Wed Oct 19 11:54:20.788932 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/
+127.0.0.1 - - [19/Oct/2016:11:54:20 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 11:54:20.796933 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/
+127.0.0.1 - - [19/Oct/2016:11:54:20 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 11:54:20.804933 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/
+127.0.0.1 - - [19/Oct/2016:11:54:20 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+127.0.0.1 - - [19/Oct/2016:11:54:23 -0400] "GET /BrainSwag/php/ HTTP/1.1" 200 4524
+[Wed Oct 19 11:54:23.593093 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:11:54:23 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 11:54:23.600093 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:11:54:23 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 11:54:23.610094 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:11:54:23 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+[Wed Oct 19 11:54:23.618094 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:11:54:23 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 11:54:23.630095 2016] [authz_core:error] [pid 4560:tid 1204] [client 127.0.0.1:1535] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:11:54:23 -0400] "GET /icons/text.gif HTTP/1.1" 403 307
+127.0.0.1 - - [19/Oct/2016:11:54:27 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2268
+127.0.0.1 - - [19/Oct/2016:11:57:47 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2268
+127.0.0.1 - - [19/Oct/2016:11:57:52 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2268
+127.0.0.1 - - [19/Oct/2016:12:01:31 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1311
+127.0.0.1 - - [19/Oct/2016:12:01:55 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1311
+127.0.0.1 - - [19/Oct/2016:12:09:21 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 148749
+127.0.0.1 - - [19/Oct/2016:12:11:51 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 441
+127.0.0.1 - - [19/Oct/2016:12:13:18 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 148768
+127.0.0.1 - - [19/Oct/2016:12:15:02 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1311
+127.0.0.1 - - [19/Oct/2016:12:15:25 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1311
+127.0.0.1 - - [19/Oct/2016:12:15:33 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1311
+127.0.0.1 - - [19/Oct/2016:12:15:44 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1311
+127.0.0.1 - - [19/Oct/2016:12:23:09 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1191
+127.0.0.1 - - [19/Oct/2016:12:23:23 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1191
+127.0.0.1 - - [19/Oct/2016:12:23:34 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1191
+127.0.0.1 - - [19/Oct/2016:12:23:46 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1191
+127.0.0.1 - - [19/Oct/2016:12:32:15 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 446
+127.0.0.1 - - [19/Oct/2016:12:32:33 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1191
+127.0.0.1 - - [19/Oct/2016:12:32:38 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1191
+127.0.0.1 - - [19/Oct/2016:12:33:06 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1371
+127.0.0.1 - - [19/Oct/2016:12:33:16 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1371
+127.0.0.1 - - [19/Oct/2016:12:33:21 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1371
+127.0.0.1 - - [19/Oct/2016:12:33:30 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1371
+127.0.0.1 - - [19/Oct/2016:12:33:37 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1371
+127.0.0.1 - - [19/Oct/2016:12:36:09 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 148759
+127.0.0.1 - - [19/Oct/2016:12:36:43 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1310
+127.0.0.1 - - [19/Oct/2016:12:36:55 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1310
+127.0.0.1 - - [19/Oct/2016:12:46:11 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 424
+127.0.0.1 - - [19/Oct/2016:12:46:12 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 424
+127.0.0.1 - - [19/Oct/2016:12:46:21 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 424
+127.0.0.1 - - [19/Oct/2016:12:46:23 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 424
+127.0.0.1 - - [19/Oct/2016:12:46:41 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:46:57 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:46:59 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:47:07 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:47:09 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:47:26 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:47:48 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:47:50 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:47:59 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:48:01 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2858
+127.0.0.1 - - [19/Oct/2016:12:48:49 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1309
+127.0.0.1 - - [19/Oct/2016:12:49:25 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1309
+127.0.0.1 - - [19/Oct/2016:12:50:00 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1325
+127.0.0.1 - - [19/Oct/2016:12:50:37 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1189
+127.0.0.1 - - [19/Oct/2016:12:50:46 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 3188
+127.0.0.1 - - [19/Oct/2016:12:50:54 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 3188
+127.0.0.1 - - [19/Oct/2016:12:50:52 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1189
+127.0.0.1 - - [19/Oct/2016:12:50:55 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 3188
+127.0.0.1 - - [19/Oct/2016:12:50:59 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 3188
+127.0.0.1 - - [19/Oct/2016:12:51:06 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 3188
+127.0.0.1 - - [19/Oct/2016:12:51:28 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 3188
+127.0.0.1 - - [19/Oct/2016:12:52:14 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1189
+127.0.0.1 - - [19/Oct/2016:12:52:22 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1204
+127.0.0.1 - - [19/Oct/2016:12:52:30 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1204
+127.0.0.1 - - [19/Oct/2016:12:57:00 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 402
+127.0.0.1 - - [19/Oct/2016:12:58:20 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1441
+127.0.0.1 - - [19/Oct/2016:12:59:34 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 7453
+127.0.0.1 - - [19/Oct/2016:12:59:58 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 7435
+127.0.0.1 - - [19/Oct/2016:13:00:12 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1717
+127.0.0.1 - - [19/Oct/2016:13:00:34 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1717
+127.0.0.1 - - [19/Oct/2016:13:00:36 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1737
+127.0.0.1 - - [19/Oct/2016:13:00:45 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1737
+127.0.0.1 - - [19/Oct/2016:13:04:03 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1741
+127.0.0.1 - - [19/Oct/2016:13:04:49 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 431
+127.0.0.1 - - [19/Oct/2016:13:05:17 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 431
+127.0.0.1 - - [19/Oct/2016:13:05:19 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 431
+127.0.0.1 - - [19/Oct/2016:13:05:41 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 411
+127.0.0.1 - - [19/Oct/2016:13:05:42 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 411
+127.0.0.1 - - [19/Oct/2016:13:06:18 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 411
+127.0.0.1 - - [19/Oct/2016:13:06:20 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 411
+127.0.0.1 - - [19/Oct/2016:13:06:30 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1741
+127.0.0.1 - - [19/Oct/2016:13:07:04 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4871
+127.0.0.1 - - [19/Oct/2016:13:09:46 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4855
+127.0.0.1 - - [19/Oct/2016:13:10:00 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1725
+127.0.0.1 - - [19/Oct/2016:13:13:59 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1546
+127.0.0.1 - - [19/Oct/2016:13:14:08 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1566
+127.0.0.1 - - [19/Oct/2016:13:15:03 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1541
+127.0.0.1 - - [19/Oct/2016:13:15:12 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1561
+127.0.0.1 - - [19/Oct/2016:13:15:20 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1559
+127.0.0.1 - - [19/Oct/2016:13:17:18 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2977
+127.0.0.1 - - [19/Oct/2016:13:17:34 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5275
+127.0.0.1 - - [19/Oct/2016:13:17:39 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5275
+127.0.0.1 - - [19/Oct/2016:13:17:43 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4298
+127.0.0.1 - - [19/Oct/2016:13:18:53 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 2977
+127.0.0.1 - - [19/Oct/2016:13:19:46 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:19:50 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4358
+127.0.0.1 - - [19/Oct/2016:13:23:27 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:23:31 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1195
+127.0.0.1 - - [19/Oct/2016:13:23:39 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1202
+127.0.0.1 - - [19/Oct/2016:13:23:48 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1193
+127.0.0.1 - - [19/Oct/2016:13:24:35 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:24:40 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 960
+127.0.0.1 - - [19/Oct/2016:13:25:04 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:25:08 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 642
+127.0.0.1 - - [19/Oct/2016:13:25:47 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:25:51 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 641
+127.0.0.1 - - [19/Oct/2016:13:25:55 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4358
+127.0.0.1 - - [19/Oct/2016:13:26:00 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4372
+127.0.0.1 - - [19/Oct/2016:13:26:58 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:27:02 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 641
+127.0.0.1 - - [19/Oct/2016:13:27:08 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 962
+127.0.0.1 - - [19/Oct/2016:13:28:12 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4372
+127.0.0.1 - - [19/Oct/2016:13:28:26 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 98253586
+127.0.0.1 - - [19/Oct/2016:13:30:14 -0400] "GET /BrainSwag/php HTTP/1.1" 301 337
+127.0.0.1 - - [19/Oct/2016:13:30:14 -0400] "GET /BrainSwag/php/ HTTP/1.1" 200 4755
+[Wed Oct 19 13:30:14.981201 2016] [authz_core:error] [pid 4472:tid 1228] [client 127.0.0.1:8191] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:13:30:14 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 13:30:15.140210 2016] [authz_core:error] [pid 4472:tid 1276] [client 127.0.0.1:8192] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:13:30:15 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 13:30:15.147211 2016] [authz_core:error] [pid 4472:tid 1232] [client 127.0.0.1:8193] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:13:30:15 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+[Wed Oct 19 13:30:15.155211 2016] [authz_core:error] [pid 4472:tid 1244] [client 127.0.0.1:8194] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:13:30:15 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 13:30:15.162211 2016] [authz_core:error] [pid 4472:tid 1220] [client 127.0.0.1:8195] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:13:30:15 -0400] "GET /icons/text.gif HTTP/1.1" 403 307
+127.0.0.1 - - [19/Oct/2016:13:30:16 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:30:24 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 37253398
+127.0.0.1 - - [19/Oct/2016:13:31:34 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 962
+127.0.0.1 - - [19/Oct/2016:13:34:40 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 403
+127.0.0.1 - - [19/Oct/2016:13:35:06 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 640
+127.0.0.1 - - [19/Oct/2016:13:35:11 -0400] "POST /BrainSwag/php/search_in_brainspell() HTTP/1.1" 404 325
+127.0.0.1 - - [19/Oct/2016:13:35:22 -0400] "POST /BrainSwag/php/search_in_brainspell() HTTP/1.1" 404 325
+127.0.0.1 - - [19/Oct/2016:13:36:11 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:36:17 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 962
+127.0.0.1 - - [19/Oct/2016:13:51:24 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:51:28 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5616
+127.0.0.1 - - [19/Oct/2016:13:51:54 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:51:58 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5620
+127.0.0.1 - - [19/Oct/2016:13:52:28 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:52:33 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 4358
+127.0.0.1 - - [19/Oct/2016:13:52:39 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 981
+127.0.0.1 - - [19/Oct/2016:13:53:47 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:53:50 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 831
+127.0.0.1 - - [19/Oct/2016:13:56:29 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:56:32 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 831
+127.0.0.1 - - [19/Oct/2016:13:56:33 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 831
+127.0.0.1 - - [19/Oct/2016:13:59:18 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:13:59:21 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 844
+127.0.0.1 - - [19/Oct/2016:13:59:22 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 844
+127.0.0.1 - - [19/Oct/2016:14:00:11 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:00:16 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 1172
+127.0.0.1 - - [19/Oct/2016:14:02:47 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:03:23 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:02:50 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 77724619
+127.0.0.1 - - [19/Oct/2016:14:03:29 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 294459
+127.0.0.1 - - [19/Oct/2016:14:03:53 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:03:57 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 441275
+127.0.0.1 - - [19/Oct/2016:14:04:09 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:05:13 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5530
+127.0.0.1 - - [19/Oct/2016:14:06:00 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:06:03 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:14:08:06 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:08:10 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:14:10:28 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:10:33 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:14:12:24 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:12:27 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:14:12:28 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:14:13:39 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:13:58 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:13:43 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 40828626
+127.0.0.1 - - [19/Oct/2016:14:15:39 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 25581672
+127.0.0.1 - - [19/Oct/2016:14:16:07 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 16449
+127.0.0.1 - - [19/Oct/2016:14:16:07 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 16449
+127.0.0.1 - - [19/Oct/2016:14:16:09 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 16449
+127.0.0.1 - - [19/Oct/2016:14:16:11 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 313607942
+127.0.0.1 - - [19/Oct/2016:14:18:24 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:19:37 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:14:19:46 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:14:20:29 -0400] "GET / HTTP/1.1" 200 991
+[Wed Oct 19 14:20:29.594435 2016] [authz_core:error] [pid 4472:tid 1244] [client 127.0.0.1:8695] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/
+127.0.0.1 - - [19/Oct/2016:14:20:29 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 14:20:29.602435 2016] [authz_core:error] [pid 4472:tid 1244] [client 127.0.0.1:8695] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/
+127.0.0.1 - - [19/Oct/2016:14:20:29 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 14:20:29.612436 2016] [authz_core:error] [pid 4472:tid 1244] [client 127.0.0.1:8695] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/
+127.0.0.1 - - [19/Oct/2016:14:20:29 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+127.0.0.1 - - [19/Oct/2016:14:18:34 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 37137256
+127.0.0.1 - - [19/Oct/2016:14:20:36 -0400] "GET /BrainSwag/php/ HTTP/1.1" 200 4755
+[Wed Oct 19 14:20:36.864851 2016] [authz_core:error] [pid 4472:tid 1232] [client 127.0.0.1:8696] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:20:36 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 14:20:36.882852 2016] [authz_core:error] [pid 4472:tid 1232] [client 127.0.0.1:8696] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:20:36 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 14:20:36.893852 2016] [authz_core:error] [pid 4472:tid 1232] [client 127.0.0.1:8696] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:20:36 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+[Wed Oct 19 14:20:36.906853 2016] [authz_core:error] [pid 4472:tid 1232] [client 127.0.0.1:8696] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:20:36 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 14:20:36.917854 2016] [authz_core:error] [pid 4472:tid 1232] [client 127.0.0.1:8696] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:20:36 -0400] "GET /icons/text.gif HTTP/1.1" 403 307
+127.0.0.1 - - [19/Oct/2016:14:20:41 -0400] "GET /BrainSwag/php/all_genes.php HTTP/1.1" 200 1796
+127.0.0.1 - - [19/Oct/2016:14:20:41 -0400] "GET /BrainSwag/js/all_genes.js HTTP/1.1" 200 230
+127.0.0.1 - - [19/Oct/2016:14:20:41 -0400] "GET /BrainSwag/css/all_genes.css HTTP/1.1" 200 597
+127.0.0.1 - - [19/Oct/2016:14:20:42 -0400] "GET /BrainSwag/img/plus.png HTTP/1.1" 200 1269
+127.0.0.1 - - [19/Oct/2016:14:20:42 -0400] "GET /BrainSwag/json/all_genes.json HTTP/1.1" 200 4909
+127.0.0.1 - - [19/Oct/2016:14:20:42 -0400] "GET /BrainSwag/img/ground.jpg HTTP/1.1" 200 2956247
+[Wed Oct 19 14:21:05.075464 2016] [:error] [pid 4472:tid 1220] [client 127.0.0.1:8706] script 'C:/wamp/www/BrainSwag/BrainSwag/php/gene_previewTestUrl.php' not found or unable to stat, referer: http://www.brainswag.ca/BrainSwag/php/all_genes.php
+127.0.0.1 - - [19/Oct/2016:14:21:05 -0400] "GET /BrainSwag/php/gene_previewTestUrl.php?ID=13768 HTTP/1.1" 404 326
+127.0.0.1 - - [19/Oct/2016:14:19:59 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 37139460
+127.0.0.1 - - [19/Oct/2016:14:33:36 -0400] "GET /BrainSwag/php/ HTTP/1.1" 200 4755
+[Wed Oct 19 14:33:36.224508 2016] [authz_core:error] [pid 4472:tid 1276] [client 127.0.0.1:8738] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:33:36 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 14:33:36.235509 2016] [authz_core:error] [pid 4472:tid 1276] [client 127.0.0.1:8738] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:33:36 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 14:33:36.244510 2016] [authz_core:error] [pid 4472:tid 1276] [client 127.0.0.1:8738] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:33:36 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+[Wed Oct 19 14:33:36.250510 2016] [authz_core:error] [pid 4472:tid 1276] [client 127.0.0.1:8738] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:33:36 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 14:33:36.257510 2016] [authz_core:error] [pid 4472:tid 1276] [client 127.0.0.1:8738] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:14:33:36 -0400] "GET /icons/text.gif HTTP/1.1" 403 307
+127.0.0.1 - - [19/Oct/2016:14:33:45 -0400] "GET /BrainSwag/php/genes_preview.php HTTP/1.1" 200 16280
+127.0.0.1 - - [19/Oct/2016:14:33:46 -0400] "GET /BrainSwag/js/genes_preview.js HTTP/1.1" 200 228
+127.0.0.1 - - [19/Oct/2016:14:33:46 -0400] "GET /BrainSwag/css/genes_preview.css HTTP/1.1" 200 390
+127.0.0.1 - - [19/Oct/2016:14:33:46 -0400] "GET /BrainSwag/css/style.css HTTP/1.1" 200 2235
+127.0.0.1 - - [19/Oct/2016:14:33:46 -0400] "GET /BrainSwag/css/jquery-ui.css HTTP/1.1" 200 31940
+127.0.0.1 - - [19/Oct/2016:14:33:46 -0400] "GET /BrainSwag/css/bootstrap.min.css HTTP/1.1" 200 109518
+127.0.0.1 - - [19/Oct/2016:14:34:02 -0400] "GET /BrainSwag/php/all_genes.php HTTP/1.1" 200 1796
+[Wed Oct 19 14:34:12.807601 2016] [:error] [pid 4472:tid 1212] [client 127.0.0.1:8748] script 'C:/wamp/www/BrainSwag/BrainSwag/php/gene_previewTestUrl.php' not found or unable to stat, referer: http://www.brainswag.ca/BrainSwag/php/all_genes.php
+127.0.0.1 - - [19/Oct/2016:14:34:12 -0400] "GET /BrainSwag/php/gene_previewTestUrl.php?ID=13765 HTTP/1.1" 404 326
+[Wed Oct 19 14:35:16.986272 2016] [:error] [pid 4472:tid 1212] [client 127.0.0.1:8749] script 'C:/wamp/www/BrainSwag/BrainSwag/php/gene_previewTestUrl.php' not found or unable to stat, referer: http://www.brainswag.ca/BrainSwag/php/all_genes.php
+127.0.0.1 - - [19/Oct/2016:14:35:16 -0400] "GET /BrainSwag/php/gene_previewTestUrl.php?ID=13765 HTTP/1.1" 404 326
+127.0.0.1 - - [19/Oct/2016:14:35:36 -0400] "GET /BrainSwag/php/all_genes.php HTTP/1.1" 200 1777
+[Wed Oct 19 14:35:38.427498 2016] [:error] [pid 4472:tid 1276] [client 127.0.0.1:8758] script 'C:/wamp/www/BrainSwag/BrainSwag/php/gene_preview.php' not found or unable to stat, referer: http://www.brainswag.ca/BrainSwag/php/all_genes.php
+127.0.0.1 - - [19/Oct/2016:14:35:38 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 404 319
+127.0.0.1 - - [19/Oct/2016:14:37:08 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6994
+127.0.0.1 - - [19/Oct/2016:14:37:08 -0400] "GET /BrainSwag/js/gene_preview.js HTTP/1.1" 200 232
+127.0.0.1 - - [19/Oct/2016:14:37:08 -0400] "GET /BrainSwag/css/gene_preview.css HTTP/1.1" 200 168
+127.0.0.1 - - [19/Oct/2016:14:37:09 -0400] "GET /BrainSwag/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 404 351
+127.0.0.1 - - [19/Oct/2016:14:37:09 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [19/Oct/2016:14:37:09 -0400] "GET /BrainSwag/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png HTTP/1.1" 404 348
+127.0.0.1 - - [19/Oct/2016:14:37:09 -0400] "GET /BrainSwag/data/MNI152.nii?.nii.gz HTTP/1.1" 200 1805610
+127.0.0.1 - - [19/Oct/2016:14:37:12 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_fdf5ce_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [19/Oct/2016:14:37:09 -0400] "GET /BrainSwag/data/13765.nii?.nii.gz HTTP/1.1" 200 7221384
+127.0.0.1 - - [19/Oct/2016:14:37:09 -0400] "GET /BrainSwag/data/13771.nii?.nii.gz HTTP/1.1" 200 7221384
+127.0.0.1 - - [19/Oct/2016:14:38:47 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6851
+127.0.0.1 - - [19/Oct/2016:14:38:56 -0400] "GET /BrainSwag/css/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1" 404 341
+127.0.0.1 - - [19/Oct/2016:14:39:38 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13767 HTTP/1.1" 200 6851
+127.0.0.1 - - [19/Oct/2016:14:39:39 -0400] "GET /BrainSwag/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 404 351
+127.0.0.1 - - [19/Oct/2016:14:39:39 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [19/Oct/2016:14:39:39 -0400] "GET /BrainSwag/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png HTTP/1.1" 404 348
+127.0.0.1 - - [19/Oct/2016:14:39:39 -0400] "GET /BrainSwag/data/13767.nii?.nii.gz HTTP/1.1" 200 7221384
+127.0.0.1 - - [19/Oct/2016:14:45:41 -0400] "GET /BrainSwag/php/genes_preview.php?id1=13765&id2=13768 HTTP/1.1" 200 12300
+127.0.0.1 - - [19/Oct/2016:14:45:41 -0400] "GET /BrainSwag/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 404 351
+127.0.0.1 - - [19/Oct/2016:14:45:41 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [19/Oct/2016:14:45:41 -0400] "GET /BrainSwag/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png HTTP/1.1" 404 348
+127.0.0.1 - - [19/Oct/2016:14:45:41 -0400] "GET /BrainSwag/data/13768.nii?.nii.gz HTTP/1.1" 200 7221384
+127.0.0.1 - - [19/Oct/2016:14:56:28 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6851
+127.0.0.1 - - [19/Oct/2016:14:56:28 -0400] "GET /BrainSwag/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 404 351
+127.0.0.1 - - [19/Oct/2016:14:56:28 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [19/Oct/2016:14:56:28 -0400] "GET /BrainSwag/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png HTTP/1.1" 404 348
+127.0.0.1 - - [19/Oct/2016:14:56:30 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_fdf5ce_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [19/Oct/2016:15:01:51 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6905
+[Wed Oct 19 15:01:51.525474 2016] [core:error] [pid 4472:tid 1244] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:8927] AH00127: Cannot map GET /BrainSwag/data/http://neurosynth.org/images/gene_1000017_GAFA3_100128236.0.nii?.nii.gz HTTP/1.1 to file, referer: http://www.brainswag.ca/BrainSwag/php/gene_preview.php?ID=13765
+127.0.0.1 - - [19/Oct/2016:15:01:51 -0400] "GET /BrainSwag/data/http://neurosynth.org/images/gene_1000017_GAFA3_100128236.0.nii?.nii.gz HTTP/1.1" 403 371
+127.0.0.1 - - [19/Oct/2016:15:02:08 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6663
+[Wed Oct 19 15:02:09.129481 2016] [core:error] [pid 4472:tid 1212] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:8940] AH00127: Cannot map GET /BrainSwag/data/http://neurosynth.org/images/gene_1000017_GAFA3_100128236.0.nii?.nii.gz HTTP/1.1 to file, referer: http://www.brainswag.ca/BrainSwag/php/gene_preview.php?ID=13765
+127.0.0.1 - - [19/Oct/2016:15:02:09 -0400] "GET /BrainSwag/data/http://neurosynth.org/images/gene_1000017_GAFA3_100128236.0.nii?.nii.gz HTTP/1.1" 403 371
+127.0.0.1 - - [19/Oct/2016:15:02:13 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6663
+[Wed Oct 19 15:02:13.831750 2016] [core:error] [pid 4472:tid 1212] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:8940] AH00127: Cannot map GET /BrainSwag/data/http://neurosynth.org/images/gene_1000017_GAFA3_100128236.0.nii?.nii.gz HTTP/1.1 to file, referer: http://www.brainswag.ca/BrainSwag/php/gene_preview.php?ID=13765
+127.0.0.1 - - [19/Oct/2016:15:02:13 -0400] "GET /BrainSwag/data/http://neurosynth.org/images/gene_1000017_GAFA3_100128236.0.nii?.nii.gz HTTP/1.1" 403 371
+127.0.0.1 - - [19/Oct/2016:15:02:45 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6897
+127.0.0.1 - - [19/Oct/2016:15:02:47 -0400] "GET /BrainSwag/css/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1" 404 341
+127.0.0.1 - - [19/Oct/2016:15:03:03 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6897
+127.0.0.1 - - [19/Oct/2016:15:03:20 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6655
+127.0.0.1 - - [19/Oct/2016:15:03:51 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 7107
+127.0.0.1 - - [19/Oct/2016:15:04:15 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6853
+127.0.0.1 - - [19/Oct/2016:15:04:38 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6889
+127.0.0.1 - - [19/Oct/2016:15:06:01 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6892
+127.0.0.1 - - [19/Oct/2016:15:06:39 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6889
+127.0.0.1 - - [19/Oct/2016:15:06:52 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6853
+127.0.0.1 - - [19/Oct/2016:15:13:05 -0400] "GET /BrainSwag/php/ HTTP/1.1" 200 4748
+[Wed Oct 19 15:13:05.584966 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9080] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:15:13:05 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 15:13:05.592967 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9080] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:15:13:05 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 15:13:05.599967 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9080] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:15:13:05 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+[Wed Oct 19 15:13:05.605968 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9080] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:15:13:05 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 15:13:05.610968 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9080] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:15:13:05 -0400] "GET /icons/text.gif HTTP/1.1" 403 307
+127.0.0.1 - - [19/Oct/2016:15:13:16 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 471
+127.0.0.1 - - [19/Oct/2016:15:17:03 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2016:15:17:08 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2016:15:19:44 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 1755
+127.0.0.1 - - [19/Oct/2016:15:21:25 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 19724
+127.0.0.1 - - [19/Oct/2016:15:22:33 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2016:15:23:04 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2016:15:24:22 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2016:15:24:58 -0400] "GET /static/css/main.min.css?5094ad2f HTTP/1.1" 404 312
+127.0.0.1 - - [19/Oct/2016:15:24:58 -0400] "GET /static/js/main.min.js?7afd4975 HTTP/1.1" 404 310
+127.0.0.1 - - [19/Oct/2016:15:24:58 -0400] "GET /static/images/nimh-logo.png HTTP/1.1" 404 316
+127.0.0.1 - - [19/Oct/2016:15:24:56 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 8936
+127.0.0.1 - - [19/Oct/2016:16:24:33 -0400] "GET /BrainSwag/php/ HTTP/1.1" 200 4748
+[Wed Oct 19 16:24:33.433585 2016] [authz_core:error] [pid 4472:tid 1244] [client 127.0.0.1:9286] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:16:24:33 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 16:24:33.433585 2016] [authz_core:error] [pid 4472:tid 1276] [client 127.0.0.1:9287] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:16:24:33 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 16:24:33.435585 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9288] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:16:24:33 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+[Wed Oct 19 16:24:33.436585 2016] [authz_core:error] [pid 4472:tid 1232] [client 127.0.0.1:9290] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+[Wed Oct 19 16:24:33.436585 2016] [authz_core:error] [pid 4472:tid 1220] [client 127.0.0.1:9289] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:16:24:33 -0400] "GET /icons/text.gif HTTP/1.1" 403 307
+127.0.0.1 - - [19/Oct/2016:16:24:33 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+127.0.0.1 - - [19/Oct/2016:16:24:37 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:16:26:57 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 6590
+127.0.0.1 - - [19/Oct/2016:16:27:22 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 6590
+127.0.0.1 - - [19/Oct/2016:16:27:30 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:16:27:34 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 6588
+127.0.0.1 - - [19/Oct/2016:16:29:29 -0400] "GET /BrainSwag/php/home_adapted.php HTTP/1.1" 200 619
+127.0.0.1 - - [19/Oct/2016:16:29:33 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:16:29:35 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5466
+127.0.0.1 - - [19/Oct/2016:16:35:46 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5361
+127.0.0.1 - - [19/Oct/2016:16:36:10 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5671064
+127.0.0.1 - - [19/Oct/2016:16:36:42 -0400] "POST /BrainSwag/php/home_adapted.php HTTP/1.1" 200 5672109
+127.0.0.1 - - [19/Oct/2016:16:54:40 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6652
+127.0.0.1 - - [19/Oct/2016:16:57:04 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6617
+127.0.0.1 - - [19/Oct/2016:17:00:55 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6617
+127.0.0.1 - - [19/Oct/2016:17:19:55 -0400] "GET /BrainSwag/php/ HTTP/1.1" 200 4748
+[Wed Oct 19 17:19:55.430923 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9491] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:17:19:55 -0400] "GET /icons/blank.gif HTTP/1.1" 403 308
+[Wed Oct 19 17:19:55.441923 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9491] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:17:19:55 -0400] "GET /icons/back.gif HTTP/1.1" 403 307
+[Wed Oct 19 17:19:55.449924 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9491] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:17:19:55 -0400] "GET /icons/folder.gif HTTP/1.1" 403 309
+[Wed Oct 19 17:19:55.457924 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9491] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:17:19:55 -0400] "GET /icons/unknown.gif HTTP/1.1" 403 310
+[Wed Oct 19 17:19:55.467925 2016] [authz_core:error] [pid 4472:tid 1212] [client 127.0.0.1:9491] AH01630: client denied by server configuration: C:/Apache24, referer: http://www.brainswag.ca/BrainSwag/php/
+127.0.0.1 - - [19/Oct/2016:17:19:55 -0400] "GET /icons/text.gif HTTP/1.1" 403 307
+127.0.0.1 - - [19/Oct/2016:17:19:58 -0400] "GET /BrainSwag/php/all_genes.php HTTP/1.1" 200 1777
+127.0.0.1 - - [19/Oct/2016:17:20:07 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13768 HTTP/1.1" 200 6617
+127.0.0.1 - - [19/Oct/2016:17:20:08 -0400] "GET /BrainSwag/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 404 351
+127.0.0.1 - - [19/Oct/2016:17:20:08 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [19/Oct/2016:17:20:08 -0400] "GET /BrainSwag/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png HTTP/1.1" 404 348
+127.0.0.1 - - [20/Oct/2016:09:37:12 -0400] "GET /BrainSwag/js/all_genes.js HTTP/1.1" 200 230
+127.0.0.1 - - [20/Oct/2016:09:37:12 -0400] "GET /BrainSwag/css/all_genes.css HTTP/1.1" 200 597
+127.0.0.1 - - [20/Oct/2016:09:37:13 -0400] "GET /BrainSwag/img/plus.png HTTP/1.1" 200 1269
+127.0.0.1 - - [20/Oct/2016:09:37:13 -0400] "GET /favicon.ico HTTP/1.1" 404 300
+127.0.0.1 - - [20/Oct/2016:09:37:18 -0400] "GET /static/css/main.min.css?5094ad2f HTTP/1.1" 404 312
+127.0.0.1 - - [20/Oct/2016:09:37:18 -0400] "GET /static/js/main.min.js?7afd4975 HTTP/1.1" 404 310
+127.0.0.1 - - [20/Oct/2016:09:37:18 -0400] "GET /static/images/nimh-logo.png HTTP/1.1" 404 316
+127.0.0.1 - - [20/Oct/2016:09:52:56 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6648
+127.0.0.1 - - [20/Oct/2016:09:52:57 -0400] "GET /BrainSwag/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 404 351
+127.0.0.1 - - [20/Oct/2016:09:52:57 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [20/Oct/2016:09:52:57 -0400] "GET /BrainSwag/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png HTTP/1.1" 404 348
+127.0.0.1 - - [20/Oct/2016:09:53:00 -0400] "GET /BrainSwag/css/images/ui-bg_glass_100_fdf5ce_1x400.png HTTP/1.1" 404 342
+127.0.0.1 - - [20/Oct/2016:09:53:01 -0400] "GET /BrainSwag/css/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1" 404 341
+127.0.0.1 - - [20/Oct/2016:09:53:36 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6672
+127.0.0.1 - - [20/Oct/2016:09:53:59 -0400] "GET /BrainSwag/php/gene_preview.php?ID=13765 HTTP/1.1" 200 6652
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /css/style.css HTTP/1.1" 404 302
+127.0.0.1 - - [20/Oct/2016:10:19:04 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 11765
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /js/jquery-1.10.2.min.js HTTP/1.1" 404 312
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /BrainSwag/php/js/three.min.js HTTP/1.1" 404 318
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /BrainSwag/php/js/Detector.js HTTP/1.1" 404 317
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /BrainSwag/php/js/SubdivisionModifier.js HTTP/1.1" 404 328
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /BrainSwag/php/js/PLYLoader.js HTTP/1.1" 404 318
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /BrainSwag/php/js/TrackballControls.js HTTP/1.1" 404 326
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /BrainSwag/php/js/jquery-1.10.2.min.js HTTP/1.1" 404 326
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /BrainSwag/php/js/brainspell-search.js HTTP/1.1" 404 326
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /img/brainspell.svg HTTP/1.1" 404 307
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /img/feed-icon.svg HTTP/1.1" 404 306
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /img/cc-by-sa-88x31.png HTTP/1.1" 404 311
+127.0.0.1 - - [20/Oct/2016:10:19:12 -0400] "GET /img/favicon.ico HTTP/1.1" 404 304
+127.0.0.1 - - [20/Oct/2016:10:48:56 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 10503
+127.0.0.1 - - [20/Oct/2016:10:54:57 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 371
+127.0.0.1 - - [20/Oct/2016:10:55:41 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 389
+127.0.0.1 - - [20/Oct/2016:10:57:26 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 588
+127.0.0.1 - - [20/Oct/2016:11:38:14 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 528
+127.0.0.1 - - [20/Oct/2016:11:39:09 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 642
+127.0.0.1 - - [20/Oct/2016:11:39:45 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 642
+127.0.0.1 - - [20/Oct/2016:11:39:59 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 647
+127.0.0.1 - - [20/Oct/2016:12:08:32 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 562
+127.0.0.1 - - [20/Oct/2016:12:09:31 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 564
+127.0.0.1 - - [20/Oct/2016:12:09:48 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 543
+127.0.0.1 - - [20/Oct/2016:12:11:33 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 549
+127.0.0.1 - - [20/Oct/2016:12:11:46 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 548
+127.0.0.1 - - [20/Oct/2016:12:12:14 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 553
+127.0.0.1 - - [20/Oct/2016:12:36:23 -0400] "GET /BrainSwag/php/neurosynthArticles.php HTTP/1.1" 200 765
