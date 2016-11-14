@@ -1,0 +1,43 @@
+- set page_title = 'Neurosynth Gene Atlas -- '
+- block content
+  /    {% assets filters="jsmin", output='js/main.min.js',
+  /                'js/lib/jquery.js',
+  /                'js/lib/jquery-ui.js',
+  /                'js/lib/jquery.cookie.js',
+  /                'js/lib/jquery.dataTables.min.js',
+  /                'js/lib/bootstrap.js',
+  /                'js/lib/setfilterdelay.js',
+  /                'js/lib/dataTables.tableTools.min.js',
+  /                # 'js/lib/react-0.12.2.js',
+  /                'js/lib/react-with-addons-0.13.1.js',
+  /                'js/lib/underscore-min.js',
+  /                'js/lib/backbone-min.js',
+  /                'js/nsviewer/amplify.js',
+  /                'js/nsviewer/panzoom.js',
+  /                'js/nsviewer/rainbow.js',
+  /                'js/nsviewer/sylvester.js',
+  /                'js/nsviewer/xtk.js',
+  /                'js/nsviewer/viewer.js',%}
+  /    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+  /    {% endassets %}
+  - import "viewers.html.slim" as viewers
+  .row#page-genes-show
+    .col-md-10
+      h2 {{symbol}} gene expression
+      .lead
+        |Brain-wide gene expression levels for the gene {{symbol}}
+      .decode-viewer style="width: 580px; float: left;"
+        ul#decode-menu.nav.nav-pills
+          li.active
+            a href="#maps" data-toggle="tab" Map
+
+        #decode-tab-content.tab-content.top-space20
+          #maps.tab-pane.active
+            script type="text/javascript"
+              |var options = {"panzoomEnabled":false};
+              var settings = ['no-zoom', 'layers','nav','checkboxes'];
+              var images = {{images}};
+              var image_id = '{{image_id}}';
+            p {{viewers.viewer(layers=True, planes=['axial', 'coronal', 'sagittal'])}}
+
+
