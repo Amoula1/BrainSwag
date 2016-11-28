@@ -3,8 +3,9 @@ import settings.settings_parameters as settings
 from flask import Blueprint, render_template, request
 from genes.controllers.utils import search_in_brainspell
 from werkzeug.datastructures import ImmutableMultiDict
-#from settings.assets import init_assets
 import requests
+import json
+#from .util import assets
 
 def add_routes(app=None):
     blueprint = Blueprint('admin', __name__, static_url_path='/genes/static',
@@ -36,18 +37,22 @@ def add_routes(app=None):
         images = [{
             'id': id_img_gene,
             'name': symbol,
-            'url':sub_url_image,
+            'url': sub_url_image,
             'colorPalette': 'intense red-blue',
+            'download': sub_url_image,
             'sign': 'both'
         }]
 
+
         # search for data (Nifti image of gene expression)
-        search_in_brainspell(symbol)
+        #search_in_brainspell(symbol) ## Uncomment this later !
 
         # route to the view: display the two images together
-        return render_template('show.html.slim')
-        #, images=json.dumps(images),
-        #     symbol=symbol, image_id=id_img_gene)
+        return render_template('hello.html')
+
+        #return render_template('show.html.slim',
+        #            images=json.dumps(images),
+        #            symbol=symbol, image_id=id_img_gene)
 
 ## HERE
 # add another function search_engine() to show the page of searching for a gene (the input text)

@@ -1,0 +1,29 @@
+{
+  "mainFile": "__init__.py", 
+  "use-tabs": false, 
+  "venv": "", 
+  "relatedProjects": [], 
+  "name": "BrainSwag", 
+  "license": "GNU General Public License v3", 
+  "url": "", 
+  "pythonPath": "", 
+  "preExecScript": "", 
+  "additional_builtins": [], 
+  "programParams": "", 
+  "indentation": 4, 
+  "PYTHONPATH": "/home/boukhdha/anaconda3/lib/python3.4/site-packages", 
+  "supported-extensions": [
+    ".py", 
+    ".html", 
+    ".jpg", 
+    ".png", 
+    ".ui", 
+    ".css", 
+    ".json", 
+    ".js", 
+    ".ini"
+  ], 
+  "project-type": "Python", 
+  "postExecScript": "", 
+  "description": ""
+}
