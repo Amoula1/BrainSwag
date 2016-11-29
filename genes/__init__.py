@@ -44,15 +44,16 @@ def add_routes(app=None):
         }]
 
 
+
         # search for data (Nifti image of gene expression)
         #search_in_brainspell(symbol) ## Uncomment this later !
 
         # route to the view: display the two images together
-        return render_template('hello.html')
+        #return render_template('hello.html')
 
-        #return render_template('show.html.slim',
-        #            images=json.dumps(images),
-        #            symbol=symbol, image_id=id_img_gene)
+        return render_template('show.html.slim',
+                    images=json.dumps(images),
+                    symbol=symbol, image_id=id_img_gene)
 
 ## HERE
 # add another function search_engine() to show the page of searching for a gene (the input text)

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page_title|default(('TITLE')) }}</title>
+    <script src = {{ url_for('static', filename = 'viewer.js') }}></script>
+    <script src = {{ url_for('static', filename = 'xtk.js') }}></script>
+    <script src = {{ url_for('static', filename = 'sylvester.js') }}></script>
+    <script src = {{ url_for('static', filename = 'rainbow.js') }}></script>
+    <script src = {{ url_for('static', filename = 'panzoom.js') }}></script>
+    <script src = {{ url_for('static', filename = 'amplify.min.js') }}></script>
+    <script src = {{ url_for('static', filename = 'backbone-min.js') }}></script>
+    <script src = {{ url_for('static', filename = 'bootstrap.min.js') }}></script>
+    <script src = {{ url_for('static', filename = 'jquery-ui.min.js') }}></script>
+    <script src = {{ url_for('static', filename = 'jquery.min.js') }}></script>
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
