@@ -2,6 +2,7 @@
 # Put /home/boukhdha/anaconda3/lib/python3.4/site-packages in PYTHONPATH
 from flask import Flask, render_template
 from slimish_jinja import SlimishExtension
+import os
 import genes
 
 app = Flask(__name__)
@@ -14,5 +15,6 @@ Flask.jinja_options['extensions'].append(SlimishExtension)
 genes.add_routes(app)
 
 if __name__ == "__main__":
-     app.run(debug = True)
+     app.run()
+
 

@@ -1,26 +1,19 @@
 - set page_title = 'Neurosynth Gene Atlas -- ' + symbol
 - extends "base.html"
 - block content
-     - import "viewers.html.slim" as viewers
-     .row#page-genes-show
-       .col-md-10
-          h2 {{symbol}} gene expression
-          .lead
-            |Brain-wide gene expression levels for the gene {{symbol}}
-          .decode-viewer style="width: 580px; float: left;"
-            ul#decode-menu.nav.nav-pills
-              li.active
-                a href="#maps" data-toggle="tab" Map
-
-            #decode-tab-content.tab-content.top-space20
-              #maps.tab-pane.active
-                script type="text/javascript"
-                  |var options = {"panzoomEnabled":true};
-                  var settings = ['no-zoom', 'layers','nav','checkboxes'];
-                  var images = {{images}};
-                  var image_id = '{{image_id}}';
-                p {{viewers.viewer()|safe}}
-
-
-
-
+  - import "_decode_viewer.html.slim"
+  .row#page-genes-show
+    .col-md-10
+      h2 {{symbol}} gene expression
+      .lead
+        ul#decode-menu.nav.nav-pills
+          li.active
+            a href="#maps" data-toggle="tab" Map
+        #decode-tab-content.tab-content.top-space20
+          #maps.tab-pane.active
+            script type="text/javascript"
+              |var options = {"panzoomEnabled":false};
+              var settings = ['no-zoom', 'layers','nav','checkboxes'];
+              var images = {{images}};
+              var image_id = '{{image_id}}';
+            p {{viewers.viewer()|safe}}

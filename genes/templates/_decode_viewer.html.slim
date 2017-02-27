@@ -1,71 +1,37 @@
-- macro viewer()
-  .viewer#analysis-viewer
+<div class='container'>
+<div class='row'>
+	<div class='col-md-10 col-md-offset-1'>
+		<h2>BrainSwag viewer</h2>
+		<p> The viewer reference  </p>
+		<p> Description to be done here (Ask Aman)!</p>
+	</div>
+</div>
+<div class='row'>
+	<div class='col-md-10 col-md-offset-1'>
+		<div id="views_left">
+			<div class='view' id='view_coronal'>
+				<canvas height='220' id='cor_canvas' width='220'></canvas>
+				<div class='slider nav-slider-vertical' id='nav-yaxis'></div>
+			</div>
+			<div class='view' id='view_axial'>
+				<canvas height='264' id='axial_canvas' width='220'></canvas>
+				<div class='slider nav-slider-vertical' id='nav-zaxis'></div>
+			</div>
+		</div>
+		<div id="views_right">
+			<div class='view' id='view_sagittal'>
+				<canvas height='220' id='sag_canvas' width='264'></canvas>
+				<div class='slider nav-slider-horizontal' id='nav-xaxis'></div>
+			</div>
+			<div id="data_panel">
+				<div class="data_display_row">
+					<div class="data_label">Coordinates:</div>
+					<div id="data_current_coords"></div>
+				</div>
 
-    .viewer-left-col
+			</div>
+		</div>
 
-      #view-coronal.view
-        %canvas height="220" width="220"
-        %#nav-yaxis.slider.nav-slider-vertical
-
-      #view-axial.view
-        %canvas height="264" width="220"
-        %#nav-zaxis.slider.nav-slider-vertical
-
-    .viewer-middle-col
-
-      #view-sagittal.view
-        %canvas height="220" width="264"
-        %#nav-xaxis.slider.nav-slider-horizontal
-
-      .layer-data-panel
-
-        .coordinate-info
-          .coordinate-head
-            .intensity-info.data-row
-              .intensity-label Intensity:
-              %#data-current-value.data-value.intensity-value
-            .whats-here-box
-              button#load-location.btn.btn-success What's here?
-          .plane-pos-box
-            .plane-pos-label X:
-            input type="number" class="plane-pos" name="current-x" id="current-x" min="-90" max="90" value="0"
-          .plane-pos-box
-            .plane-pos-label Y:
-            input type="number" class="plane-pos" name="current-y" id="current-y" min="-72" max="108" value="0"
-          .plane-pos-box
-            .plane-pos-label Z:
-            input type="number" class="plane-pos" name="current-z" id="current-z" min="-106" max="90" value="0"
-
-        #description.data-row
-          h5 Description
-          %#image-description
-
-      #layer-panel
-        span Layers
-        #layer-list-panel
-          %#layer_visible_list
-          %ul#layer-list.layer-settings
-
-        #layer-settings-panel
-          .layer-container-half-width
-            span Color palette:
-            %select#select-color.layer-settings.form-control
-            span Positive/Negative:
-            %select#select-sign.layer-settings.form-control
-          %#checkbox-list
-          .layer-container-full-width
-            %.top-space20
-            .layer-settings-row
-              .row-label Thresholds:
-              input#neg-threshold-text.slider-text
-              %#neg-threshold.slider.layer-settings.layer-settings-slider
-              %#threshold-zero -/+
-              %#pos-threshold.slider.layer-settings.layer-settings-slider
-              input#pos-threshold-text.slider-text
-            .layer-settings-row
-              .row-label Opacity:
-              input#opacity-text.slider-text
-              %#opacity.slider.layer-settings.layer-settings-slider
-
-
-
+	</div>
+</div>
+</div>
