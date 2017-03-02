@@ -4,7 +4,7 @@ from flask import Blueprint, render_template, request
 from genes.controllers.utils import search_in_brainspell, search_in_neurosynth
 from werkzeug.datastructures import ImmutableMultiDict
 import requests
-import json
+import os
 #from .util import assets
 
 def add_routes(app=None):
@@ -18,16 +18,17 @@ def add_routes(app=None):
         symbol = imd.getlist('symbol')[0]
         symbol = symbol.strip()
         # Step1: search for data (Nifti image of gene expression)
-        images = search_in_neurosynth(symbol, settings, requests)
-        image_id = images[0]['id']
+        gene = search_in_neurosynth(symbol, settings, requests)
+
         # Step2: search_in_brainspell(symbol)
-        search_in_brainspell(symbol)
+        settings.PAPERS = search_in_brainspell(symbol)
 
         # route to the view: display the two images together
         # If I want to output the list of papers here I have to change
         # this into a php page !
-        return render_template('visualization_images.html')
+        return render_template('visualization_images.html', papers = settings.PAPERS, gene = gene)
 
 
    #init_assets(app)
     app.register_blueprint(blueprint)
+

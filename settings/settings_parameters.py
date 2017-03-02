@@ -7,11 +7,17 @@ import sys
 ROOT_DIR = os.path.realpath(
     join(join(os.path.dirname(__file__), os.path.pardir), os.path.pardir))
 
+# static variables
+PAPERS = {}
+
 # Static content
 STATIC_FOLDER = join(ROOT_DIR, 'static')
 
 # Templates
 TEMPLATE_FOLDER = join(ROOT_DIR, 'templates')
 
-# Neurosynth website
+# integration of other search engines
 NEUROSYNTH_URL = 'http://neurosynth.org'
+NEUROSYNTH_GENE_URL = 'http://neurosynth.org/genes/'
+NEUROSYNTH_IMAGE = '/static/data/gene_expressions.nii.gz'
+QUERY_BRAINSPELL = 'http://brainspell.org/search?query='

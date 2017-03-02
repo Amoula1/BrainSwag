@@ -1,12 +1,12 @@
-[INFO  - 2017-02-26T23:56:40.901Z] GhostDriver - Main - running on port 34495
-[INFO  - 2017-02-26T23:56:41.592Z] Session [383c4960-fc7f-11e6-959b-e72b5178ca25] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-02-26T23:56:41.592Z] Session [383c4960-fc7f-11e6-959b-e72b5178ca25] - page.customHeaders:  - {}
-[INFO  - 2017-02-26T23:56:41.592Z] Session [383c4960-fc7f-11e6-959b-e72b5178ca25] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-02-26T23:56:41.592Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 383c4960-fc7f-11e6-959b-e72b5178ca25
-[ERROR - 2017-02-26T23:56:44.341Z] Session [383c4960-fc7f-11e6-959b-e72b5178ca25] - page.onError - msg: THREE.CanvasRenderer has been moved to /examples/js/renderers/CanvasRenderer.js
+[INFO  - 2017-03-02T00:40:12.311Z] GhostDriver - Main - running on port 59039
+[INFO  - 2017-03-02T00:40:13.251Z] Session [cc24ec00-fee0-11e6-b7b1-3fac42be67ab] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-03-02T00:40:13.251Z] Session [cc24ec00-fee0-11e6-b7b1-3fac42be67ab] - page.customHeaders:  - {}
+[INFO  - 2017-03-02T00:40:13.251Z] Session [cc24ec00-fee0-11e6-b7b1-3fac42be67ab] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-03-02T00:40:13.251Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cc24ec00-fee0-11e6-b7b1-3fac42be67ab
+[ERROR - 2017-03-02T00:40:14.985Z] Session [cc24ec00-fee0-11e6-b7b1-3fac42be67ab] - page.onError - msg: THREE.CanvasRenderer has been moved to /examples/js/renderers/CanvasRenderer.js
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-26T23:56:44.341Z] Session [383c4960-fc7f-11e6-959b-e72b5178ca25] - page.onError - stack:
+[ERROR - 2017-03-02T00:40:14.985Z] Session [cc24ec00-fee0-11e6-b7b1-3fac42be67ab] - page.onError - stack:
   CanvasRenderer (http://brainspell.org/js/three.min.js:11)
 
   phantomjs://platform/console++.js:263 in error

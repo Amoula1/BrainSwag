@@ -40,7 +40,7 @@
       if (options == null) {
         options = {};
       }
-      xyz = 'xyz' in options ? options.xyz : [0.0, 0.0, 0.0];
+      xyz = 'xyz' in options ? options.xyz : [0.0, -52, 0.0];
       this.coords_ijk = Transform.atlasToImage(xyz);
       this.coords_abc = Transform.atlasToViewer(xyz);
       this.viewSettings = new ViewSettings(options);
@@ -620,8 +620,8 @@
     function Layer(image, options) {
       this.image = image;
       options = $.extend(true, {
-        colorPalette: 'red',
-        sign: 'positive',
+        colorPalette: 'intense red-blue',
+        sign: 'both',
         visible: true,
         opacity: 1.0,
         cache: false,

@@ -10,6 +10,7 @@ jQuery(document).ready(function() {
 	viewer.addSlider("nav-yaxis", ".slider#nav-yaxis", "vertical", 0, 1, 0.5, 0.01, Viewer.YAXIS);
 	viewer.addSlider("nav-zaxis", ".slider#nav-zaxis", "vertical", 0, 1, 0.5, 0.01, Viewer.ZAXIS);
 
+
 	viewer.addColorSelect('#select_color');
 	viewer.addSignSelect('#select_sign')
 	viewer.addDataField('voxelValue', '#data_current_value')
@@ -25,16 +26,16 @@ jQuery(document).ready(function() {
 			'intent': 'Intensity:'
 		},
             {
-			'url': '../static/data/gene_expressions.nii.gz',
-			'name': 'Neurosynth ',
-			'colorPalette': 'blue',
+			'url': '../static/data/brain_activations.nii',
+			'name': 'Imaging Data',
+			'colorPalette': 'red',
 			'cache': true,
 			'intent': 'Intensity:'
 		},
-		{
-			'url': '../static/data/brain_activations.nii',
-			'name': 'Brainspell',
-			'colorPalette': 'red',
+            {
+			'url': '../static/data/gene_expressions.nii.gz',
+			'name': 'Gene Expressions ',
+			'colorPalette': 'intense red-blue',
 			'cache': true,
 			'intent': 'Intensity:'
 		},
